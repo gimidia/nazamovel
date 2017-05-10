@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage" Title="Menu">
+    
+    <StackLayout>
+        <Label x:Name="lblUsuario" Text="Usuário"/>
+        <Entry x:Name="edtNomeEmail" Placeholder="Digite seu Nome/Email"/>
+        <Label x:Name="lblSenha" Text="Senha"/>
+        <Entry x:Name="edtSenha" IsPassword="True" Placeholder="Digite sua Senha"/>
+        <Button x:Name="btnEntrar" Text="Entrar" Image="icon.png" BackgroundColor="White" TextColor="Black" Clicked="MostraLista"/>
+
+    </StackLayout>
+
+</ContentPage>
